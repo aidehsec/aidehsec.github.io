@@ -80,11 +80,15 @@ init_files() {
   echo "[INFO] Initialization successful!"
 }
 
-check_status
+echo 1
+#check_status
+echo 1
 
 check_init
+echo 1
 
 _no_gh=false
+echo 1
 
 while (($#)); do
   opt="$1"
@@ -104,7 +108,10 @@ while (($#)); do
     ;;
   esac
 done
+echo 1
 
-checkout_latest_tag
+#checkout_latest_tag
+echo 1
 
 init_files
+echo 1
